@@ -1,37 +1,43 @@
-Customer Experience Analytics – Fintech Apps
+# Customer Experience Analytics – Fintech Apps
 
-This project scrapes, preprocesses, and analyzes Google Play Store reviews for three Ethiopian banks. It is part of the Week 2 Challenge at 10 Academy: Artificial Intelligence Mastery.
+This project scrapes, preprocesses, and analyzes Google Play Store reviews for three Ethiopian banks. It is part of the **Week 2 Challenge at 10 Academy: Artificial Intelligence Mastery**.
 
-Banks Analyzed
+---
 
-Commercial Bank of Ethiopia (CBE)
+## Banks Analyzed
+- **Commercial Bank of Ethiopia (CBE)**
+- **Bank of Abyssinia (BOA)**
+- **Dashen Bank**
 
-Bank of Abyssinia (BOA)
+---
 
-Dashen Bank
+## Project Structure
 
-Project Structure
 .
-├── scrape_reviews.py                 # Scrapes reviews from Google Play Store
-├── preprocess.py                     # Cleans and normalizes scraped reviews
-├── reviews.csv                       # Raw scraped reviews (optional, large)
-├── cleaned_reviews.csv               # Fully cleaned dataset, ready for analysis
+├── scrape_reviews.py # Scrapes reviews from Google Play Store
+├── preprocess.py # Cleans and normalizes scraped reviews
+├── reviews.csv # Raw scraped reviews (optional, large)
+├── cleaned_reviews.csv # Fully cleaned dataset, ready for analysis
 ├── task_2_sentiment_thematic_analysis.py # Sentiment & thematic analysis (Task 2)
-├── reviews_processed.csv             # Processed dataset with sentiment and themes
-├── requirements.txt                  # Python dependencies
-├── .gitignore                         # Excludes large or temporary files
-└── README.md                          # Project documentation
+├── reviews_processed.csv # Processed dataset with sentiment and themes
+├── requirements.txt # Python dependencies
+├── .gitignore # Excludes large or temporary files
+└── README.md # Project documentation                                                                                                                    
 
-Workflow
-1. Scraping Reviews (Task 1)
 
-Run scrape_reviews.py to collect reviews from the three bank apps.
+---
 
-Saves raw reviews to reviews.csv
+## Workflow
 
-Automatically runs preprocess.py to produce cleaned_reviews.csv
+### 1. Scraping Reviews (Task 1)
+Run `scrape_reviews.py` to collect reviews from the three bank apps.  
 
+- Saves raw reviews to `reviews.csv`  
+- Automatically runs `preprocess.py` to produce `cleaned_reviews.csv`  
+
+```bash
 python scrape_reviews.py
+```
 
 2. Preprocessing
 
@@ -47,9 +53,10 @@ Cleans text (lowercase, remove URLs, symbols, extra spaces)
 
 Standardizes bank names
 
+
+```bash
 python preprocess.py
-
-
+```
 Output: cleaned_reviews.csv — ready for analysis.
 
 3. Analysis (Task 2)
@@ -74,17 +81,18 @@ Feature / Others
 
 Identify satisfaction drivers and pain points
 
+```bash
 python task_2_sentiment_thematic_analysis.py
-
-
+```
 Output: reviews_processed.csv — includes sentiment labels, scores, keywords, and identified themes.
 
 Dependencies
 
 Install required Python packages:
 
+```bash
 pip install -r requirements.txt
-
+```
 
 Main packages:
 
@@ -129,3 +137,6 @@ Next Steps
 Task 3: Store cleaned_reviews.csv in PostgreSQL database
 
 Task 4: Generate visualizations and insights for stakeholders
+
+
+---
