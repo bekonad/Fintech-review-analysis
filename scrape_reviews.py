@@ -1,9 +1,20 @@
-# Google Play Store Review Scraper
-# Scrapes reviews for three Ethiopian banks and saves cleaned data to CSV
+"""
+scrape_reviews.py
+-----------------
+Scrapes reviews for three Ethiopian banks and saves them to CSV.
+Optionally, integrates preprocessing to produce cleaned_reviews.csv.
+"""
 
 from google_play_scraper import reviews, Sort
 import pandas as pd
+import logging
 from datetime import datetime
+import subprocess
+
+# -------------------------
+# Logging
+# -------------------------
+logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")
 
 # -------------------------
 # Configuration
@@ -15,10 +26,10 @@ APPS = [
 ]
 
 REVIEWS_PER_APP = 400
-OUTPUT_CSV = "reviews.csv"
+RAW_OUTPUT_CSV = "reviews.csv"
 
 # -------------------------
-# Functions
+# Scraping Function
 # -------------------------
 def scrape_app_reviews(app_id, app_name, count=REVIEWS_PER_APP):
     """Scrape reviews for a single app."""
@@ -41,15 +52,8 @@ def scrape_app_reviews(app_id, app_name, count=REVIEWS_PER_APP):
             })
         return reviews_list
     except Exception as e:
-        print(f"[ERROR] Could not scrape {app_name}: {e}")
+        logging.error(f"Could not scrape {app_name}: {e}")
         return []
-
-def preprocess_reviews(df):
-    """Clean the scraped reviews."""
-    df = df.drop_duplicates(subset=["review", "date", "bank"])
-    df = df.dropna(subset=["review", "rating"])
-    df["date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d")
-    return df
 
 # -------------------------
 # Main Script
@@ -58,21 +62,23 @@ def main():
     all_reviews = []
 
     for app in APPS:
-        print(f"Scraping reviews for {app['name']}...")
+        logging.info(f"Scraping reviews for {app['name']}...")
         app_reviews = scrape_app_reviews(app["id"], app["name"])
         all_reviews.extend(app_reviews)
 
     df = pd.DataFrame(all_reviews)
-    print(f"Collected {len(df)} reviews before cleaning.")
+    logging.info(f"Collected {len(df)} reviews.")
 
-    # Clean data
-    df = preprocess_reviews(df)
-    print(f"Total reviews after cleaning: {len(df)}")
-    print(f"Missing data:\n{df.isnull().sum()}")
+    # Save raw CSV
+    df.to_csv(RAW_OUTPUT_CSV, index=False)
+    logging.info(f"Saved raw reviews to {RAW_OUTPUT_CSV}")
 
-    # Save to CSV
-    df.to_csv(OUTPUT_CSV, index=False)
-    print(f"Saved cleaned reviews to {OUTPUT_CSV}")
+    # Optional: Run preprocessing automatically
+    try:
+        subprocess.run(["python", "preprocess.py"], check=True)
+        logging.info("Preprocessing complete. Cleaned CSV saved.")
+    except Exception as e:
+        logging.error(f"Could not run preprocessing: {e}")
 
 if __name__ == "__main__":
     main()

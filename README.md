@@ -1,85 +1,162 @@
-Task 1 — Data Collection & Preprocessing
-Objective
+# Customer Experience Analytics – Fintech Apps
 
-Collect at least 400+ reviews per bank (CBE, BOA, Dashen) from Google Play Store, clean the dataset, and prepare it for sentiment/thematic analysis.
+This project scrapes, preprocesses, and analyzes Google Play Store reviews for three Ethiopian banks. It is part of the **Week 2 Challenge at 10 Academy: Artificial Intelligence Mastery**.
 
-Tools Used
+---
 
-google-play-scraper — to fetch reviews programmatically
+## Banks Analyzed
+- **Commercial Bank of Ethiopia (CBE)**
+- **Bank of Abyssinia (BOA)**
+- **Dashen Bank**
 
-Pandas — preprocessing (cleaning, deduplication, formatting)
+---
 
-Python 3.10+
-
-Git & GitHub — version control and project organization
-
-Scraping Methodology
-
-Used google_play_scraper.reviews() to collect:
-
-Review text
-
-Rating (1–5 stars)
-
-Review date
-
-Bank/app name
-
-Source
-
-Targeted 400+ reviews per app, resulting in:
-
-1,200 raw reviews collected
-
-1,189 cleaned after removing duplicates and handling missing values
-
-Preprocessing Steps
-
-✔ Removed duplicate reviews using:
-
-df.drop_duplicates(subset=["review", "date", "bank"])
+## Project Structure
+    -
+    ├── scrape_reviews.py # Scrapes reviews from Google Play Store
+    ├── preprocess.py # Cleans and normalizes scraped reviews
+    ├── reviews.csv # Raw scraped reviews (optional, large)
+    ├── cleaned_reviews.csv # Fully cleaned dataset, ready for analysis
+    ├── task_2_sentiment_thematic_analysis.py # Sentiment & thematic analysis (Task 2)
+    ├── reviews_processed.csv # Processed dataset with sentiment labels, scores, keywords, and themes
+    ├── requirements.txt # Python dependencies
+    ├── .gitignore # Excludes large or temporary files
+    └── README.md # Project documentation                         
 
 
-✔ Ensured no missing values in critical fields (review, rating)
-✔ Normalized date formats to YYYY-MM-DD using:
+---
 
-pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d")
+## Workflow
 
+### 1. Scraping Reviews (Task 1)
+Run `scrape_reviews.py` to collect reviews from the three bank apps.  
 
-✔ Saved final dataset as:
+- Saves raw reviews to `reviews.csv`  
+- Automatically runs `preprocess.py` to produce `cleaned_reviews.csv`  
 
-reviews.csv
-
-Folder Structure
-Fintech Review Analysis/
-│
-├── scrape_reviews.py         # Scraping + cleaning script
-├── reviews.csv                # Cleaned reviews (1189 rows)
-├── requirements.txt
-├── .gitignore
-├── README.md
-└── venv/                      # Virtual environment (ignored by git)
-
-How to Run the Scraper
-
-# activate virtual environment
-
-& .\venv\Scripts\Activate.ps1
-
-# install dependencies
-
-pip install -r requirements.txt
-
-# run scraper 
-
+```bash
 python scrape_reviews.py
+```
+Output: reviews.csv — ready for analysis.
 
-Next Steps (Task 2)
+---
 
-Perform sentiment analysis using DistilBERT
+### 2. Preprocessing
 
-Extract keywords using TF-IDF and spaCy
+- Cleans raw review data:
 
-Assign themes to reviews
+- Removes duplicates and missing values
 
-Output: reviews_processed.csv
+- Normalizes dates (YYYY-MM-DD)
+
+- Validates rating values (1–5)
+
+- Cleans text (lowercase, remove URLs, symbols, extra spaces)
+
+- Standardizes bank names
+
+```bash
+python preprocess.py
+```
+Output: cleaned_reviews.csv — ready for analysis.
+
+--- 
+
+
+### 3. Analysis (Task 2)
+
+Use cleaned_reviews.csv for:
+
+ - Sentiment Analysis: Hugging Face DistilBERT (preferred), optional VADER/TextBlob fallback
+
+ - Keyword Extraction: spaCy noun chunks or TF-IDF
+
+ - Thematic Clustering: Assign reviews into 5 main themes:
+
+    - Account Access Issues
+
+    - Transaction Performance
+
+    - User Interface & Experience
+
+    - Customer Support
+
+    - Feature / Others
+
+ - Identify satisfaction drivers and pain points
+
+```bash
+python task_2_sentiment_thematic_analysis.py
+```
+Files Involved:
+
+    - task_2_sentiment_thematic_analysis.py – Analysis script for sentiment and themes
+
+    - reviews_processed.csv – Processed dataset with sentiment labels, scores, keywords, and identified themes
+
+- ** Output: reviews_processed.csv — includes sentiment labels, scores, keywords, and identified themes.**
+
+---
+
+### Dependencies
+
+Install required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Main packages:
+
+    google-play-scraper – Web scraping
+
+    pandas – Data manipulation
+
+    numpy – Numerical operations
+
+    regex – Text cleaning
+
+    logging – Standard logging
+
+    Optional / Task 2 packages:
+
+    transformers – Hugging Face sentiment models
+
+    spacy – NLP processing
+
+    torch – Required for Transformers
+
+    vaderSentiment – Simple sentiment analysis (optional)
+---
+
+## Output Files
+
+| File                   | Description                                                      |
+|------------------------|------------------------------------------------------------------|
+| `reviews.csv`          | Raw scraped reviews                                              |
+| `cleaned_reviews.csv`  | Preprocessed and cleaned reviews                                 |
+| `reviews_processed.csv`| Reviews with sentiment labels, scores, keywords, and themes      |
+
+---
+
+Use reviews_processed.csv for all downstream analysis, visualization, and insight tasks.
+
+---
+
+GitHub Branching Strategy
+
+- task-1 – Scraping and preprocessing
+
+- task-2 – Sentiment and thematic analysis
+
+- main – Final merged version including scripts and CSVs
+  
+---
+Next Steps
+
+Task 3: Store cleaned_reviews.csv in PostgreSQL database
+
+Task 4: Generate visualizations and insights for stakeholders
+
+
+---
