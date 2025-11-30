@@ -83,3 +83,87 @@ Extract keywords using TF-IDF and spaCy
 Assign themes to reviews
 
 Output: reviews_processed.csv
+
+Task 2 — Sentiment & Thematic Analysis
+Objective
+
+Analyze user reviews to understand emotional tone (sentiment), extract important keywords, and group feedback into high-level themes for each bank.
+
+Methods
+1. Sentiment Analysis
+
+Model used:
+
+distilbert-base-uncased-finetuned-sst-2-english (Hugging Face)
+
+Pipeline:
+
+Each review passed to the DistilBERT sentiment classifier
+
+Extracted:
+
+sentiment_label (Positive, Negative, Neutral)
+
+sentiment_score (confidence score)
+
+Goal achieved ✔: sentiment for 100% of reviews.
+
+2. Keyword Extraction
+
+Used:
+
+spaCy noun chunks
+
+OR fallback: TF-IDF
+
+Example extracted keywords:
+
+"login issue", "slow transfer", "UI design", "network error", "customer support"
+
+3. Thematic Clustering
+
+Keywords were grouped into 5 major themes:
+
+Theme	Description
+Account Access Issues	login, password, reset errors
+Transaction Performance	transfer delays, slow processing
+User Interface & Experience	design, navigation, layout
+Customer Support	help, agent support, problems not solved
+Feature Related Requests	fingerprint login, dark mode, alerts
+
+Theme assignment added as column:
+
+identified_theme
+
+Output File
+reviews_processed.csv
+
+
+Columns include:
+
+review
+
+rating
+
+date
+
+bank
+
+sentiment_label
+
+sentiment_score
+
+keywords
+
+identified_theme
+
+KPIs Achieved
+KPI	Result
+Sentiment scores for 90%+ reviews	100% completed
+Extract 3+ themes per bank	5 total themes extracted
+Modular pipeline	Yes
+Examples of themes visible	Yes (keywords + themes)
+How to Run Task 2 Script
+& .\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python task_2_sentiment_thematic_analysis.py
