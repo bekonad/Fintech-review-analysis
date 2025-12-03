@@ -16,8 +16,8 @@ import logging
 # -------------------------
 # Config
 # -------------------------
-INPUT_FILE = "cleaned_reviews.csv"
-OUTPUT_FILE = "reviews_processed.csv"
+INPUT_FILE = "data/cleaned_reviews.csv"
+OUTPUT_FILE = "data/reviews_processed.csv"
 
 # -------------------------
 # Logging

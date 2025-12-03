@@ -26,7 +26,8 @@ APPS = [
 ]
 
 REVIEWS_PER_APP = 400
-RAW_OUTPUT_CSV = "reviews.csv"
+RAW_OUTPUT_CSV = "data/raw/reviews.csv"
+
 
 # -------------------------
 # Scraping Function
@@ -75,7 +76,7 @@ def main():
 
     # Optional: Run preprocessing automatically
     try:
-        subprocess.run(["python", "preprocess.py"], check=True)
+        subprocess.run(["python", "scripts/preprocess.py"], check=True)
         logging.info("Preprocessing complete. Cleaned CSV saved.")
     except Exception as e:
         logging.error(f"Could not run preprocessing: {e}")

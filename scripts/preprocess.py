@@ -20,8 +20,9 @@ import pandas as pd
 import re
 import logging
 
-INPUT_FILE = "reviews.csv"
-OUTPUT_FILE = "cleaned_reviews.csv"
+INPUT_FILE = "data/raw/reviews.csv"
+OUTPUT_FILE = "data/cleaned_reviews.csv"
+
 
 # -------------------------------------------------------
 # Logging Setup
