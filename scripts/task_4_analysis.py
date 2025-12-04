@@ -106,6 +106,28 @@ for idx, row in themes.iterrows():
     plt.savefig(f"figures/keyword_cloud_{bank_name}.png")
     plt.show()
 
+# --- STEP 4b: OPTIONAL COMPARISON PLOTS ---
+
+# Average Rating per Bank
+plt.figure(figsize=(8,5))
+sns.barplot(x=avg_ratings.index, y=avg_ratings.values, palette="Blues_d")
+plt.title("Average Rating per Bank")
+plt.xlabel("Bank ID")
+plt.ylabel("Average Rating")
+plt.ylim(0,5)
+plt.savefig("figures/average_rating_per_bank.png")
+plt.show()
+
+# Average Sentiment per Bank
+plt.figure(figsize=(8,5))
+sns.barplot(x=avg_sentiment.index, y=avg_sentiment.values, palette="Greens_d")
+plt.title("Average Sentiment Score per Bank")
+plt.xlabel("Bank ID")
+plt.ylabel("Average Sentiment Score")
+plt.ylim(0,1)
+plt.savefig("figures/average_sentiment_per_bank.png")
+plt.show()
+
 # --- STEP 5: RECOMMENDATIONS ---
 print("\n--- Recommendations per Bank ---")
 recommendations = {}
@@ -152,3 +174,9 @@ for bank, info in recommendations.items():
 df_recommendations = pd.DataFrame(rec_data)
 df_recommendations.to_csv("data/bank_recommendations.csv", index=False)
 print("\nRecommendations saved to data/bank_recommendations.csv")
+
+# --- STEP 7: ETHICS / REVIEW BIAS NOTE ---
+print("\n--- Review Bias Note ---")
+print("The review dataset may contain a negative skew, as dissatisfied users are more likely to leave reviews.")
+print("Additionally, review counts per rating are uneven, which can influence average sentiment and rating metrics.")
+print("This should be considered when interpreting insights and recommendations.")

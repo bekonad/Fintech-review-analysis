@@ -1,162 +1,194 @@
-# Customer Experience Analytics – Fintech Apps
+# Fintech App Review Analysis – Week 2 Final Report
 
-This project scrapes, preprocesses, and analyzes Google Play Store reviews for three Ethiopian banks. It is part of the **Week 2 Challenge at 10 Academy: Artificial Intelligence Mastery**.
+## Project Overview
+This project analyzes user reviews of three Ethiopian banks' mobile apps to provide actionable insights for improving customer experience. It demonstrates a full data analytics workflow, from web scraping to NLP analysis, database storage, visualization, and recommendation generation.
 
----
+**Banks analyzed:**
+- Commercial Bank of Ethiopia (CBE)
+- Bank of Abyssinia (BOA)
+- Dashen Bank
 
-## Banks Analyzed
-- **Commercial Bank of Ethiopia (CBE)**
-- **Bank of Abyssinia (BOA)**
-- **Dashen Bank**
+**Project Goals:**
+1. Collect and preprocess at least 1,200 user reviews.
+2. Analyze review sentiment and extract recurring themes.
+3. Identify key satisfaction drivers and pain points per bank.
+4. Store processed data in a PostgreSQL database.
+5. Generate actionable insights and visualizations for stakeholders.
 
----
-
-## Project Structure
-    -
-    ├── scrape_reviews.py # Scrapes reviews from Google Play Store
-    ├── preprocess.py # Cleans and normalizes scraped reviews
-    ├── reviews.csv # Raw scraped reviews (optional, large)
-    ├── cleaned_reviews.csv # Fully cleaned dataset, ready for analysis
-    ├── task_2_sentiment_thematic_analysis.py # Sentiment & thematic analysis (Task 2)
-    ├── reviews_processed.csv # Processed dataset with sentiment labels, scores, keywords, and themes
-    ├── requirements.txt # Python dependencies
-    ├── .gitignore # Excludes large or temporary files
-    └── README.md # Project documentation                         
-
+**Project Date:** 26 Nov – 02 Dec 2025
 
 ---
 
-## Workflow
+## File structure
 
-### 1. Scraping Reviews (Task 1)
-Run `scrape_reviews.py` to collect reviews from the three bank apps.  
+Fintech Review Analysis/
+├── .github/
+├── data/
+│   ├── raw/
+│   │   └── reviews.csv
+│   ├── bank_recommendations.csv
+│   ├── bank_themes.csv
+│   ├── cleaned_reviews.csv
+│   └── reviews_processed.csv
+├── figures/
+│   ├── average_rating_per_bank.png
+│   ├── average_sentiment_per_bank.png
+│   ├── keyword_cloud_Bank of Abyssinia.png
+│   ├── keyword_cloud_Commercial Bank of Ethiopia.png
+│   ├── keyword_cloud_Dashen Bank.png
+│   ├── rating_distribution.png
+│   └── sentiment_distribution.png
+├── notebooks/
+├── reports/
+├── scripts/
+│   ├── insert_reviews.py
+│   ├── preprocess.py
+│   ├── scrape_reviews.py
+│   ├── sentiment_analysis.py
+│   ├── task_2_analysis.py
+│   ├── task_2_sentiment_thematic_analysis.py
+│   └── task_4_analysis.py
+├── sql/
+├── tests/
+├── venv/
+├── visualizations/
+├── .gitignore
+├── README.md
+└── requirements.txt
 
-- Saves raw reviews to `reviews.csv`  
-- Automatically runs `preprocess.py` to produce `cleaned_reviews.csv`  
+## Project Tasks & Methodology
 
-```bash
-python scrape_reviews.py
-```
-Output: reviews.csv — ready for analysis.
+### Task 1: Data Collection & Preprocessing
+**Objective:** Gather user reviews and clean the dataset for analysis.
 
----
+**Steps Taken:**
+- Used `google-play-scraper` to scrape reviews, ratings, posting dates, and app names for each bank.
+- Targeted at least 400 reviews per bank, totaling 1,189 reviews.
+- Cleaned the dataset by:
+  - Removing duplicates
+  - Handling missing data
+  - Normalizing dates to `YYYY-MM-DD`
+- Saved the cleaned dataset as `data/cleaned_reviews.csv`.
 
-### 2. Preprocessing
-
-- Cleans raw review data:
-
-- Removes duplicates and missing values
-
-- Normalizes dates (YYYY-MM-DD)
-
-- Validates rating values (1–5)
-
-- Cleans text (lowercase, remove URLs, symbols, extra spaces)
-
-- Standardizes bank names
-
-```bash
-python preprocess.py
-```
-Output: cleaned_reviews.csv — ready for analysis.
-
---- 
-
-
-### 3. Analysis (Task 2)
-
-Use cleaned_reviews.csv for:
-
- - Sentiment Analysis: Hugging Face DistilBERT (preferred), optional VADER/TextBlob fallback
-
- - Keyword Extraction: spaCy noun chunks or TF-IDF
-
- - Thematic Clustering: Assign reviews into 5 main themes:
-
-    - Account Access Issues
-
-    - Transaction Performance
-
-    - User Interface & Experience
-
-    - Customer Support
-
-    - Feature / Others
-
- - Identify satisfaction drivers and pain points
-
-```bash
-python task_2_sentiment_thematic_analysis.py
-```
-Files Involved:
-
-    - task_2_sentiment_thematic_analysis.py – Analysis script for sentiment and themes
-
-    - reviews_processed.csv – Processed dataset with sentiment labels, scores, keywords, and identified themes
-
-- ** Output: reviews_processed.csv — includes sentiment labels, scores, keywords, and identified themes.**
+**Key Outputs:**
+- `cleaned_reviews.csv`: cleaned, ready-to-analyze review dataset.
+- Methodology and preprocessing steps documented for reproducibility.
 
 ---
 
-### Dependencies
+### Task 2: Sentiment & Thematic Analysis
+**Objective:** Quantify user sentiment and identify recurring themes.
 
-Install required Python packages:
+**Steps Taken:**
+1. **Sentiment Analysis**
+   - Used DistilBERT (`distilbert-base-uncased-finetuned-sst-2-english`) to classify reviews into `positive`, `negative`, and `neutral`.
+   - Aggregated sentiment scores per bank to understand overall customer satisfaction.
 
+2. **Thematic Analysis**
+   - Extracted significant keywords using TF-IDF.
+   - Clustered keywords manually into 3–5 themes per bank (e.g., "Login Issues", "Transaction Speed", "User Interface").
+   - Saved processed reviews with sentiment and themes as `reviews_processed.csv`.
+   - Extracted top keywords per bank and saved as `bank_themes.csv`.
+
+**Key Outputs:**
+- `reviews_processed.csv`: includes `review_text`, `rating`, `sentiment_label`, `sentiment_score`, and `identified_theme`.
+- `bank_themes.csv`: top keywords/themes for each bank.
+
+---
+
+### Task 3: Store Data in PostgreSQL
+**Objective:** Implement a persistent storage solution for processed review data.
+
+**Steps Taken:**
+- Created a PostgreSQL database named `bank_reviews`.
+- Defined two tables:
+  1. **banks**: `bank_id`, `bank_name`, `app_name`
+  2. **reviews**: `review_id`, `bank_id`, `review_text`, `rating`, `review_date`, `sentiment_label`, `sentiment_score`, `source`
+- Inserted cleaned review data using Python (`SQLAlchemy` + `psycopg2`).
+- Verified data integrity via SQL queries:
+  - Count of reviews per bank
+  - Average ratings and sentiment scores per bank
+
+**Key Outputs:**
+- Fully functional database storing >1,000 reviews.
+- Ensures reproducibility and query-based analysis.
+
+---
+
+### Task 4: Insights & Recommendations
+**Objective:** Derive actionable insights from reviews and visualize results for stakeholders.
+
+**Steps Taken:**
+
+1. **Drivers & Pain Points**
+   - Sampled top 5 positive reviews per bank → **drivers**.
+   - Sampled top 5 negative reviews per bank → **pain points**.
+   - Identified examples such as:
+     - Drivers: "Fast transfers", "Easy-to-use interface"
+     - Pain Points: "Login errors", "Slow loading", "Crashes"
+
+2. **Recommendations**
+   - Generated per bank based on pain points:
+     - Improve login reliability
+     - Optimize app speed and response time
+     - Fix app stability issues
+     - Maintain current strengths when no major issues
+
+3. **Visualizations**
+   - Sentiment distribution per bank
+   - Rating distribution per bank
+   - Keyword clouds per bank
+   - Optional bar charts: average rating per bank, average sentiment per bank
+   - All figures saved in the `figures/` directory.
+
+4. **Ethics / Review Bias**
+   - Noted that reviews may be negatively skewed, as dissatisfied users are more likely to leave reviews.
+   - Uneven review counts per rating may influence aggregate sentiment.
+
+**Key Outputs:**
+- `bank_recommendations.csv` with drivers, pain points, and recommendations.
+- Figures in `figures/` for report visualization.
+
+---
+
+## Usage Instructions
+
+1. **Install dependencies**
 ```bash
 pip install -r requirements.txt
-```
 
-Main packages:
+2. Setup Database
 
-    google-play-scraper – Web scraping
+- Ensure PostgreSQL is installed and running.
 
-    pandas – Data manipulation
+- Update database credentials in task_4_analysis.py as needed.
 
-    numpy – Numerical operations
+- Run Script
 
-    regex – Text cleaning
+python scripts/task_1_scrape_preprocess.py
+python scripts/task_2_analysis.py
+python scripts/task_4_analysis.py
 
-    logging – Standard logging
+Outputs
 
-    Optional / Task 2 packages:
+CSVs in data/
 
-    transformers – Hugging Face sentiment models
+Figures in figures/
 
-    spacy – NLP processing
+Recommendations CSV in data/bank_recommendations.csv
 
-    torch – Required for Transformers
+Notes
 
-    vaderSentiment – Simple sentiment analysis (optional)
----
+Compatible with Python 3.x.
 
-## Output Files
+Review datasets may contain bias (negative skew, uneven rating counts).
 
-| File                   | Description                                                      |
-|------------------------|------------------------------------------------------------------|
-| `reviews.csv`          | Raw scraped reviews                                              |
-| `cleaned_reviews.csv`  | Preprocessed and cleaned reviews                                 |
-| `reviews_processed.csv`| Reviews with sentiment labels, scores, keywords, and themes      |
+All scripts are modular and documented for reproducibility.
 
----
+Author
 
-Use reviews_processed.csv for all downstream analysis, visualization, and insight tasks.
+- Bereket Feleke
 
----
+- Omega Consultancy – Week 2 Project
 
-GitHub Branching Strategy
-
-- task-1 – Scraping and preprocessing
-
-- task-2 – Sentiment and thematic analysis
-
-- main – Final merged version including scripts and CSVs
-  
----
-Next Steps
-
-Task 3: Store cleaned_reviews.csv in PostgreSQL database
-
-Task 4: Generate visualizations and insights for stakeholders
-
-
----
+- Project Date: 26 Nov – 02 Dec 2025
