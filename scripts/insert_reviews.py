@@ -1,13 +1,17 @@
 # scripts/insert_reviews.py
 import pandas as pd
 import psycopg2
+import yaml
 
-# --- CONFIG ---
-DB_HOST = "localhost"
-DB_NAME = "bank_reviews"
-DB_USER = "postgres"
-DB_PASS = "1234beko"
-CSV_PATH = "data/cleaned_reviews.csv"
+# ---Load config---
+with open('config.yaml') as f:
+    config = yaml.safe_load(f)
+
+DB_HOST = config['db_host']
+DB_NAME = config['db_name']
+DB_USER = config['db_user']
+DB_PASS = config['db_pass']
+CSV_PATH = config['csv_path']
 
 # --- LOAD CSV ---
 df = pd.read_csv(CSV_PATH)
@@ -18,6 +22,31 @@ conn = psycopg2.connect(
     host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASS
 )
 cur = conn.cursor()
+
+# --- CREATE TABLES IF NOT EXIST ---
+cur.execute("""
+CREATE TABLE IF NOT EXISTS banks (
+    bank_id SERIAL PRIMARY KEY,
+    bank_name TEXT UNIQUE NOT NULL,
+    app_name TEXT
+);
+""")
+
+cur.execute("""
+CREATE TABLE IF NOT EXISTS reviews (
+    review_id SERIAL PRIMARY KEY,
+    bank_id INT REFERENCES banks(bank_id),
+    review_text TEXT,
+    rating INT,
+    review_date DATE,
+    sentiment_label TEXT,
+    sentiment_score FLOAT,
+    source TEXT
+);
+""")
+conn.commit()
+print("Tables verified or created.")
+
 
 # --- Insert Banks ---
 banks = df['bank'].unique()
