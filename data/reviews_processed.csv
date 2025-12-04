@@ -1,4 +1,10 @@
 review,rating,date,bank,source,sentiment_label,sentiment_score,keywords,identified_theme
+thank you,5,2025-12-01,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998352527618408,you,Feature / Others
+very good app,5,2025-12-01,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998675584793091,very good app,Feature / Others
+excellent,1,2025-12-01,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998434782028198,,Feature / Others
+good,5,2025-11-30,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
+cbe,5,2025-11-29,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9966009855270386,cbe,Feature / Others
+it s special for me,5,2025-11-29,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9997844099998474,"it, me",Feature / Others
 make it user friendly.,2,2025-11-29,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9920620918273926,it,Feature / Others
 maaliif daddafee install gaafata,3,2025-11-28,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9875526428222656,,Feature / Others
 good app,5,2025-11-28,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998493194580078,good app,Feature / Others
@@ -12,13 +18,10 @@ it is nice app,5,2025-11-26,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9
 best,5,2025-11-25,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9997941851615906,,Feature / Others
 good app,5,2025-11-25,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998493194580078,good app,Feature / Others
 "it suddenly asked me to enter the verification key i received. and it get your verification key from the nearest cbe branch now i m in australia, what do you expect me to do???! there is no nearest or furthermost cbe branch!! so frustrating! how can i manage my bank account now????",1,2025-11-25,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9992542862892151,"it, me, the verification key, i, it, your verification key, i, australia, what, you, me, i, my bank account",Account Access Issues
-nice app...,5,2025-11-25,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9997116923332214,nice app,Feature / Others
-very good banking service and fast service,5,2025-11-24,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998499155044556,fast service,Feature / Others
 thanks blc this app help me to use all time,5,2025-11-24,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9971639513969421,"this app, me",Feature / Others
 good,5,2025-11-24,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 why we can t send money to other people telebirr wallets??,1,2025-11-24,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9985054731369019,"we, t, money, other people, telebirr",Feature / Others
 15 birr 11.50,1,2025-11-23,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9637507796287537,15 birr,Feature / Others
-,5,2025-11-23,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 wow,5,2025-11-23,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.999592125415802,,Feature / Others
 good,5,2025-11-23,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 nice,5,2025-11-22,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
@@ -26,7 +29,6 @@ you are the reason why i got ye chogara himem,1,2025-11-22,Commercial Bank of Et
 it is so smart app i recommend it for everyone,5,2025-11-22,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998483657836914,"it, so smart app, i, it, everyone",Feature / Others
 excellent,5,2025-11-22,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998434782028198,,Feature / Others
 good,5,2025-11-21,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
-,5,2025-11-21,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 absolutely right,5,2025-11-21,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998525381088257,,Feature / Others
 good app,5,2025-11-21,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998493194580078,good app,Feature / Others
 mid application it s so annoying,3,2025-11-20,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9997604489326477,it,Feature / Others
@@ -69,9 +71,9 @@ bad app,1,2025-11-10,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.99972122
 best app,5,2025-11-10,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.999686598777771,best app,Feature / Others
 wow,5,2025-11-10,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.999592125415802,,Feature / Others
 nice app,5,2025-11-10,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998061060905457,nice app,Feature / Others
+bad app,4,2025-11-10,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9997212290763855,bad app,Feature / Others
 the app constantly glitches and won t stop loading despite having a decent connection and a cleared cache. telebirr is way better,1,2025-11-10,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.7895854711532593,"the app, t, a decent connection, a cleared cache, telebirr",Feature / Others
 i can t access it properly i think it needs update,1,2025-11-10,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9995952248573303,"i, access, it, i, it, update",Feature / Others
-,5,2025-11-10,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 best,5,2025-11-10,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9997941851615906,,Feature / Others
 good,4,2025-11-10,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 not refresh,2,2025-11-10,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9990518689155579,,Feature / Others
@@ -105,7 +107,6 @@ it is a good and clear apps to use,4,2025-10-31,Commercial Bank of Ethiopia,Goog
 i love this app b c every option in the app very clear and supportive.,5,2025-10-30,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998520612716675,"i, every option, the app",Feature / Others
 niiceh,5,2025-10-29,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.8779535293579102,niiceh,Feature / Others
 the app is good but their is no dark mode you have to add it,3,2025-10-29,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9965399503707886,"the app, their, no dark mode, you, it",Feature / Others
-,1,2025-10-29,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 abdulakim abrahim elemoo,5,2025-10-29,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9634568691253662,abdulakim abrahim,Feature / Others
 good app,5,2025-10-28,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998493194580078,good app,Feature / Others
 strong,5,2025-10-28,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.999862551689148,,Feature / Others
@@ -122,7 +123,6 @@ galaxy a10s,3,2025-10-26,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.8983
 the best apps,5,2025-10-26,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998617172241211,the best apps,Feature / Others
 arif app new,5,2025-10-26,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.5203981995582581,arif app,Feature / Others
 laga bari biranch,5,2025-10-26,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9922856092453003,laga bari biranch,Feature / Others
-,5,2025-10-26,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 i would like to suggest you improve the time out as it takes the money and doesn t return it back until the next day.,3,2025-10-25,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9948068261146545,"i, you, the time, it, the money, doesn t, it, the next day",Feature / Others
 attractive,5,2025-10-25,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998689889907837,,Feature / Others
 mite,5,2025-10-24,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9965571165084839,mite,Feature / Others
@@ -163,14 +163,12 @@ berhan deriba wami,4,2025-10-14,Commercial Bank of Ethiopia,Google Play,POSITIVE
 good,5,2025-10-13,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 mahamad usman,5,2025-10-13,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9890894293785095,mahamad usman,Feature / Others
 erako,5,2025-10-13,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9978224039077759,erako,Feature / Others
-,5,2025-10-13,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 opne,5,2025-10-13,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.7972500920295715,opne,Feature / Others
 mehommd nuri,5,2025-10-13,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9508018493652344,mehommd nuri,Feature / Others
 best,5,2025-10-12,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9997941851615906,,Feature / Others
 good,5,2025-10-12,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 providing very secure service.,5,2025-10-12,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9993906021118164,very secure service,Feature / Others
 apk apkwun,1,2025-10-12,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.5462881922721863,apk,Feature / Others
-,5,2025-10-12,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 riyad mohammed abaoli 92 527 2567,5,2025-10-12,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9531126022338867,riyad mohammed abaoli,Feature / Others
 it doesn t show bank statement and no options to see transactions for the past months.,2,2025-10-12,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9993897676467896,"it, bank statement, no options, transactions, the past months",Transaction Performance
 mamma husen,2,2025-10-11,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9694636464118958,mamma husen,Feature / Others
@@ -233,7 +231,6 @@ niceapp,5,2025-09-27,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.99982708
 good,5,2025-09-26,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 good,5,2025-09-25,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 the best app of all,5,2025-09-25,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998633861541748,"the best app, all",Feature / Others
-,5,2025-09-25,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 "most of the time when i try to open the app, it does not load. the circle keeps spinning as if it is trying to open, and get a message saying 2 attempts left for offline login . this seems to mean that the app cannot connect to the internet, even though i have a stable internet connection, and all other stuff work properly.",2,2025-09-24,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9990382194519043,"the time, i, the app, it, the circle, it, a message, 2 attempts, offline login, this, the app, the internet, i",Account Access Issues
 juhaar,5,2025-09-24,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.6955298185348511,,Feature / Others
 i am using cbe app very fantastic.,5,2025-09-24,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.999567449092865,"i, cbe app",Feature / Others
@@ -252,7 +249,6 @@ dantro band!!!,5,2025-09-21,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9
 some time when make transfer from mobile account to other cbebirr wallet no show customer name so please check it......thanks my cbe.. cbebirr application very nice application wallet,5,2025-09-20,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9983887672424316,"transfer, mobile account, other cbebirr, it, my cbe",Account Access Issues
 this app is very useful but sometimes when you want to see specific transactions it didn t work so that way i gave 3,3,2025-09-20,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9948825836181641,"this app, you, specific transactions, it, i",Transaction Performance
 why i must visit the branch i opened my account to activate the mobile banking services? if it a connected network it maybe done from any branch.,1,2025-09-20,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9981855750083923,"i, the branch, i, my account, it, it, any branch",Account Access Issues
-,5,2025-09-20,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 asfaw damse,5,2025-09-19,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.987163245677948,asfaw damse,Feature / Others
 ok,5,2025-09-19,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9997851252555847,,Feature / Others
 nice,5,2025-09-19,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
@@ -261,7 +257,6 @@ the app is very good in its interface and user friendly. but it could be a pro a
 the app is user friendly. but i want some amendment or include option of sending money to other tele birr like other cbe birr.,4,2025-09-18,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9966429471969604,"the app, i, some amendment, option, money, other tele birr, other cbe birr",Feature / Others
 truly amazing!,5,2025-09-18,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998810291290283,,Feature / Others
 doesn t have option to generate statement for transactions,3,2025-09-18,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9943239688873291,"doesn t, option, statement, transactions",Transaction Performance
-,5,2025-09-18,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 janalebl,5,2025-09-17,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9632813930511475,janalebl,Feature / Others
 very good,5,2025-09-17,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998520612716675,,Feature / Others
 nice application,5,2025-09-17,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998229146003723,nice application,Feature / Others
@@ -306,12 +301,9 @@ from monk,3,2025-09-06,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.939874
 "amazing, delightful and seamless mobile banking application, i have ever experienced!! indeed, i feel great proud to be part of your stakeholder! my first choice bank, commercial bank of ethiopia, the pioneer and leading in digital banking services in ethiopia! five stars are little to you! thank you so much",5,2025-09-06,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9997656941413879,"i, i, part, your stakeholder, commercial bank, ethiopia, the pioneer, digital banking services, ethiopia, five stars, you, you",Feature / Others
 incredible,5,2025-09-06,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998753070831299,,Feature / Others
 good,5,2025-09-06,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
-,5,2025-09-06,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 it s the best money transfer app ever,5,2025-09-06,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9997095465660095,it,Feature / Others
 it is nice,5,2025-09-05,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998648166656494,it,Feature / Others
 user friendly. best.,5,2025-09-05,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9997245669364929,user,Feature / Others
-,5,2025-09-05,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
-,5,2025-09-05,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 best app!!!,5,2025-09-05,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9997482895851135,best app,Feature / Others
 "it is good app and really user friendly , but it not possible to start service after the app is uninstalled or device phone is changed. so please make it easy for us, after once you set us the requirements in your office we should have to use it only by install and launch it. we do not have to visit the near by branch office every time for such silly businesses but important things. in addition to that why is that for hidding senders name or account number how can i know who tranfers to me???",4,2025-09-05,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9859862327575684,"it, good app, it, service, the app, device phone, it, us, you, us, the requirements, your office, we, it, install, it, we, branch office, such silly businesses, important things, addition, that, senders name, account number, i, who, me",Account Access Issues
 very good app,5,2025-09-05,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998675584793091,very good app,Feature / Others
@@ -339,7 +331,6 @@ sahib amin jamal,1,2025-08-31,Commercial Bank of Ethiopia,Google Play,POSITIVE,0
 installi,5,2025-08-31,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9575467109680176,installi,Feature / Others
 good,5,2025-08-30,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 very good apps,5,2025-08-30,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998751878738403,very good apps,Feature / Others
-,1,2025-08-30,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 the app say it is not compatible with ur phone can u fix it it is not updating.,1,2025-08-30,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9997796416282654,"the app, it, ur phone, u, it, it",Feature / Others
 "i would like to give you some feedback on current update, its very nice and easy to use but in some button there is still not improved for example while iwant to check my recent txn it not well sequenced and arranged or some txn may not appear ... becouse of this i see many of users of this app discomferted maily merchants and those make high txn daily. improve and miximize the txn shown to 300 up to 500. make searchable recent txn button! all in all the bank i relly on! cbe my bank !",5,2025-08-29,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9968692660331726,"i, you, some feedback, current update, some button, example, txn, it, some txn, becouse, this, i, users, this app, maily merchants, those, the txn, all the bank, i, cbe, my bank",Feature / Others
 tinishu titiba,5,2025-08-29,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.715971827507019,tinishu titiba,Feature / Others
@@ -349,7 +340,6 @@ i found it very much friendly,5,2025-08-29,Commercial Bank of Ethiopia,Google Pl
 "very useful app, while we use cbe.",5,2025-08-28,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9981263279914856,"very useful app, we, cbe",Feature / Others
 woooow,5,2025-08-28,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9561602473258972,woooow,Feature / Others
 redmi,1,2025-08-28,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9882866740226746,,Feature / Others
-,5,2025-08-28,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 kamil aweil,5,2025-08-28,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9943663477897644,kamil aweil,Feature / Others
 nice,3,2025-08-28,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
 in your next update can you come with night mode future,5,2025-08-27,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.6754571199417114,"your next update, you, night mode future",Feature / Others
@@ -368,7 +358,6 @@ i am happy,5,2025-08-26,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.99988
 good,5,2025-08-26,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 still i have not face critical problems sometimes delay to open,4,2025-08-26,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9847295880317688,"i, critical problems",Feature / Others
 excellent,5,2025-08-26,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998434782028198,,Feature / Others
-,5,2025-08-25,Commercial Bank of Ethiopia,Google Play,Neutral,0.5,,Feature / Others
 the connection between bank and the app is lag relationship this must be corrected.,4,2025-08-25,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.999581515789032,"the connection, bank, the app, lag relationship, this",Feature / Others
 i have forgotten mobail banking password,5,2025-08-25,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.99432772397995,"i, mobail banking password",Account Access Issues
 nice app,5,2025-08-25,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998061060905457,nice app,Feature / Others
@@ -386,18 +375,16 @@ list of transactions can t load over months and years..,1,2025-08-23,Commercial 
 transferring money to telebirr is not working,1,2025-08-23,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9997877478599548,"money, telebirr",Feature / Others
 i don t like this app and there service fee is highl,5,2025-08-23,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9943201541900635,"i, don t, this app, there service fee, highl",Feature / Others
 update . update save .,2,2025-08-23,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.600846529006958,"update, update save",Feature / Others
-this application do not show over all transaction history,3,2025-08-23,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9990196228027344,"this application, all transaction history",Transaction Performance
-this app is very nice but statment history is very shiort atlist add 15 days,4,2025-08-23,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9775184988975525,"this app, statment history, very shiort atlist, 15 days",Feature / Others
-"this app stooped working after i updated it. it says change password and i did, but it doesn t open with the new password. i don t like it.",1,2025-08-23,Commercial Bank of Ethiopia,Google Play,NEGATIVE,0.9994568228721619,"this app, i, it, it, password, i, it, t, the new password, i don t, it",Account Access Issues
-best and secured application,5,2025-08-23,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9997896552085876,,Feature / Others
-,5,2025-11-29,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
+good,5,2025-08-23,Commercial Bank of Ethiopia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
+i don t find it good and now it is not working!,1,2025-12-01,Bank of Abyssinia,Google Play,NEGATIVE,0.999783456325531,"i, don t, it, it",Feature / Others
+make the reason we wrote visible on app transaction.,2,2025-12-01,Bank of Abyssinia,Google Play,NEGATIVE,0.9711726903915405,"the reason, we, app transaction",Transaction Performance
+app is note active working crash,1,2025-11-30,Bank of Abyssinia,Google Play,NEGATIVE,0.848737895488739,"app, active working crash",Feature / Others
 very good,5,2025-11-28,Bank of Abyssinia,Google Play,POSITIVE,0.9998520612716675,,Feature / Others
 goof,5,2025-11-28,Bank of Abyssinia,Google Play,NEGATIVE,0.9975278973579407,goof,Feature / Others
 good!,5,2025-11-28,Bank of Abyssinia,Google Play,POSITIVE,0.9998268485069275,,Feature / Others
 good jop,5,2025-11-27,Bank of Abyssinia,Google Play,POSITIVE,0.9998409748077393,good jop,Feature / Others
 bad exprience...it is so crushed,1,2025-11-27,Bank of Abyssinia,Google Play,NEGATIVE,0.9998053908348083,it,Feature / Others
 not user friendly at all it requires a huge connectivity and also lags many times,1,2025-11-26,Bank of Abyssinia,Google Play,NEGATIVE,0.9997567534446716,"it, a huge connectivity",Feature / Others
-,1,2025-11-26,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 very good,5,2025-11-25,Bank of Abyssinia,Google Play,POSITIVE,0.9998520612716675,,Feature / Others
 most of the time is not working properly,1,2025-11-25,Bank of Abyssinia,Google Play,NEGATIVE,0.9997636675834656,the time,Feature / Others
 good service,5,2025-11-25,Bank of Abyssinia,Google Play,POSITIVE,0.9998499155044556,good service,Feature / Others
@@ -424,7 +411,6 @@ this app launch time is so long also has dozen bugs in addition it s has been lo
 very nice,5,2025-11-04,Bank of Abyssinia,Google Play,POSITIVE,0.9998563528060913,,Feature / Others
 "your application is very irritating to use, some functionality doesn t even work like on the card management. you need to do better than this and it good idea to reference other banking applications.",3,2025-11-04,Bank of Abyssinia,Google Play,NEGATIVE,0.9988049268722534,"your application, use, the card management, you, this, other banking applications",Feature / Others
 i like,5,2025-11-02,Bank of Abyssinia,Google Play,POSITIVE,0.9998149275779724,i,Feature / Others
-,1,2025-11-01,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 i m sorry but it doesn t work for my android it is too slow but other bank are very fast please update,1,2025-10-30,Bank of Abyssinia,Google Play,NEGATIVE,0.7571713328361511,"i, it, my android, it, other bank",Feature / Others
 "the worst app ever,",1,2025-10-30,Bank of Abyssinia,Google Play,NEGATIVE,0.9997932314872742,the worst app,Feature / Others
 better,5,2025-10-29,Bank of Abyssinia,Google Play,POSITIVE,0.999264657497406,,Feature / Others
@@ -448,7 +434,6 @@ best of best,5,2025-10-09,Bank of Abyssinia,Google Play,POSITIVE,0.9997496008872
 from the last week updates the app is not working please check the problems,1,2025-10-08,Bank of Abyssinia,Google Play,NEGATIVE,0.9996919631958008,"the last week, the app, the problems",Feature / Others
 it s always crushing,1,2025-10-08,Bank of Abyssinia,Google Play,NEGATIVE,0.9994115829467773,it,Feature / Others
 office branches have to improve their services please,4,2025-10-07,Bank of Abyssinia,Google Play,POSITIVE,0.6649660468101501,"office branches, their services",Feature / Others
-,5,2025-10-05,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 why does it keep crashing? i can t even use this. boa should do better. you have many customers and how to deal with this. i can t send money now.,1,2025-10-05,Bank of Abyssinia,Google Play,NEGATIVE,0.9991012811660767,"it, i, this, boa, you, many customers, this, i, t, money",Customer Support
 it needs a timely update,5,2025-10-03,Bank of Abyssinia,Google Play,NEGATIVE,0.9983032941818237,"it, a timely update",Feature / Others
 "it does not show the name of the person who sent the money to request a receipt. this has become very difficult for us. when different people transfer the same amount to me from different banks, it is very difficult to identify the account or the name of the sender.",3,2025-10-01,Bank of Abyssinia,Google Play,NEGATIVE,0.9997054934501648,"it, the name, the person, who, the money, a receipt, this, us, different people, the same amount, me, different banks, it, the account, the name, the sender",Account Access Issues
@@ -462,7 +447,6 @@ easy and fast,5,2025-09-24,Bank of Abyssinia,Google Play,POSITIVE,0.999558389186
 great,5,2025-09-20,Bank of Abyssinia,Google Play,POSITIVE,0.9998630285263062,,Feature / Others
 mobile banking,5,2025-09-19,Bank of Abyssinia,Google Play,POSITIVE,0.9076532125473022,mobile banking,Feature / Others
 very good,5,2025-09-18,Bank of Abyssinia,Google Play,POSITIVE,0.9998520612716675,,Feature / Others
-,5,2025-09-18,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 "need alot of connection, chooses device, very lug even when there is connection",1,2025-09-17,Bank of Abyssinia,Google Play,NEGATIVE,0.9918755292892456,"alot, connection, device, very lug, connection",Feature / Others
 on my ios it s perfect but on android it barley works and don t transfer and after a while it crushed and totally stopped working. please fix the issue my beloved bank of abyssinia.,1,2025-09-15,Bank of Abyssinia,Google Play,NEGATIVE,0.9962408542633057,"my ios, it, it, don t transfer, a while, it, the issue, my beloved bank, abyssinia",Transaction Performance
 since the last update i can open the app crashes a lot and omg its being very slow opening and loading,2,2025-09-15,Bank of Abyssinia,Google Play,NEGATIVE,0.9995414018630981,"the last update, i, the app, a lot, very slow opening, loading",Transaction Performance
@@ -477,9 +461,7 @@ it doesn t open,1,2025-09-10,Bank of Abyssinia,Google Play,NEGATIVE,0.9997475743
 very good,5,2025-09-09,Bank of Abyssinia,Google Play,POSITIVE,0.9998520612716675,,Feature / Others
 masha alla,5,2025-09-08,Bank of Abyssinia,Google Play,NEGATIVE,0.9514626860618591,masha alla,Feature / Others
 best banking transaction application in ethiopia !,5,2025-09-05,Bank of Abyssinia,Google Play,POSITIVE,0.9996905326843262,ethiopia,Feature / Others
-,5,2025-09-04,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 tamaam kamal,1,2025-09-04,Bank of Abyssinia,Google Play,POSITIVE,0.9918873906135559,tamaam kamal,Feature / Others
-,5,2025-09-03,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 great,5,2025-09-02,Bank of Abyssinia,Google Play,POSITIVE,0.9998630285263062,,Feature / Others
 goof,4,2025-09-01,Bank of Abyssinia,Google Play,NEGATIVE,0.9975278973579407,goof,Feature / Others
 absiniya banki,5,2025-08-29,Bank of Abyssinia,Google Play,NEGATIVE,0.9083040952682495,absiniya banki,Feature / Others
@@ -503,7 +485,6 @@ good,5,2025-08-05,Bank of Abyssinia,Google Play,POSITIVE,0.9998161196708679,,Fea
 yes goode app,5,2025-08-03,Bank of Abyssinia,Google Play,POSITIVE,0.9997490048408508,yes goode app,Feature / Others
 great app,5,2025-08-02,Bank of Abyssinia,Google Play,POSITIVE,0.999821126461029,great app,Feature / Others
 1 crashes repeatedly 2 takes century to boot 3 repeatedly requires update which is very annoying. 4 it doesn t ask for password for one step confirmation when transferring money. 5 automatically stops music when the app is launched it doesn t really matter just fyi overall this have to be the worst mobile banking app i have tried so far and should not be released with all these bugs issues.,1,2025-08-02,Bank of Abyssinia,Google Play,NEGATIVE,0.9997370839118958,"century, update, which, it, doesn t, password, one step confirmation, money, music, the app, it, doesn t, this, i",Account Access Issues
-,1,2025-07-31,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 the worst mobile banking app.,1,2025-07-31,Bank of Abyssinia,Google Play,NEGATIVE,0.9997994303703308,,Feature / Others
 giod,5,2025-07-30,Bank of Abyssinia,Google Play,POSITIVE,0.9893913269042969,giod,Feature / Others
 best bank in ethiopia,5,2025-07-29,Bank of Abyssinia,Google Play,POSITIVE,0.999733030796051,"best bank, ethiopia",Feature / Others
@@ -511,25 +492,20 @@ waqayyoo,5,2025-07-28,Bank of Abyssinia,Google Play,POSITIVE,0.5036855340003967,
 please is not working,2,2025-07-27,Bank of Abyssinia,Google Play,NEGATIVE,0.9997643828392029,,Feature / Others
 nothing when i need to install the apk it say that re up date,5,2025-07-25,Bank of Abyssinia,Google Play,NEGATIVE,0.998229444026947,"nothing, i, the apk, it, date",Feature / Others
 i can log in from any where,5,2025-07-23,Bank of Abyssinia,Google Play,NEGATIVE,0.9497753977775574,i,Feature / Others
-,3,2025-07-21,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 no proplem,5,2025-07-20,Bank of Abyssinia,Google Play,NEGATIVE,0.991222620010376,no proplem,Feature / Others
-,5,2025-07-20,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 excellent app,5,2025-07-18,Bank of Abyssinia,Google Play,POSITIVE,0.9998356103897095,excellent app,Feature / Others
 good work,5,2025-07-15,Bank of Abyssinia,Google Play,POSITIVE,0.9998413324356079,good work,Feature / Others
-,5,2025-07-15,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 excellent,5,2025-07-14,Bank of Abyssinia,Google Play,POSITIVE,0.9998434782028198,,Feature / Others
 great boa,5,2025-07-14,Bank of Abyssinia,Google Play,POSITIVE,0.9992689490318298,great boa,Feature / Others
 good,5,2025-07-14,Bank of Abyssinia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 okay,4,2025-07-13,Bank of Abyssinia,Google Play,POSITIVE,0.9997709393501282,,Feature / Others
 not working,1,2025-07-12,Bank of Abyssinia,Google Play,NEGATIVE,0.9997778534889221,,Feature / Others
 this app is getting worse and worse with every update,2,2025-07-11,Bank of Abyssinia,Google Play,NEGATIVE,0.999568521976471,"this app, every update",Feature / Others
-,1,2025-07-10,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 nice,5,2025-07-10,Bank of Abyssinia,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
 best app,5,2025-07-08,Bank of Abyssinia,Google Play,POSITIVE,0.999686598777771,best app,Feature / Others
 meku,5,2025-07-07,Bank of Abyssinia,Google Play,POSITIVE,0.9421749114990234,meku,Feature / Others
 nice,4,2025-07-04,Bank of Abyssinia,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
 awasome app go a head,5,2025-07-04,Bank of Abyssinia,Google Play,NEGATIVE,0.9980922341346741,"awasome app, a head",Feature / Others
-,5,2025-07-03,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 it sucks as hell. it crashes most of the time and takes a long time to load .,1,2025-07-03,Bank of Abyssinia,Google Play,NEGATIVE,0.9994389414787292,"it, hell, it, the time, a long time",Feature / Others
 the app is nice and easy to use but after some time it crushed and said error check your device connectivity please fix it,3,2025-07-02,Bank of Abyssinia,Google Play,NEGATIVE,0.9972335696220398,"the app, some time, it, error, your device connectivity, it",Feature / Others
 easy and very nice app to load more than the previouse but in recent time some loading problem detected.,5,2025-07-01,Bank of Abyssinia,Google Play,NEGATIVE,0.9851245284080505,"the previouse, recent time, some loading problem",Feature / Others
@@ -540,16 +516,13 @@ goof,5,2025-06-25,Bank of Abyssinia,Google Play,NEGATIVE,0.9975278973579407,goof
 good app fore me,5,2025-06-25,Bank of Abyssinia,Google Play,POSITIVE,0.9998444318771362,"good app, me",Feature / Others
 very uninterested it s not working when the developer mode on i haven t off the developer options i preferred to uninstall your app .....,1,2025-06-24,Bank of Abyssinia,Google Play,NEGATIVE,0.9994223117828369,"it, the developer mode, i, t, the developer options, i, your app",Feature / Others
 fantastic,5,2025-06-22,Bank of Abyssinia,Google Play,POSITIVE,0.9998743534088135,fantastic,Feature / Others
-,4,2025-06-21,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 it s nice to use.,5,2025-06-21,Bank of Abyssinia,Google Play,POSITIVE,0.9997946619987488,it,Feature / Others
 app doesn t start,1,2025-06-21,Bank of Abyssinia,Google Play,NEGATIVE,0.9962354302406311,app doesn t,Feature / Others
 excellent application,5,2025-06-18,Bank of Abyssinia,Google Play,POSITIVE,0.9998571872711182,excellent application,Feature / Others
 its very bad app its very slow,1,2025-06-17,Bank of Abyssinia,Google Play,NEGATIVE,0.9998086094856262,,Feature / Others
-,1,2025-06-15,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 good,1,2025-06-15,Bank of Abyssinia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 good job!,5,2025-06-13,Bank of Abyssinia,Google Play,POSITIVE,0.9998481273651123,good job,Feature / Others
 best financial app.,5,2025-06-12,Bank of Abyssinia,Google Play,POSITIVE,0.9997761845588684,best financial app,Feature / Others
-,5,2025-06-11,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 the worst app humans ever created,1,2025-06-09,Bank of Abyssinia,Google Play,NEGATIVE,0.9998008608818054,,Feature / Others
 it s not working,3,2025-06-05,Bank of Abyssinia,Google Play,NEGATIVE,0.9997804760932922,it,Feature / Others
 "hello, i m facing a problem with the boa mobile app. every time i enter my phone number and password, the app crashes and shows an error that says boamobile closed because this app has a bug. i tried updating, reinstalling, and clearing cache, but nothing worked. please fix this bug in the next update. i really need access to my account. thank you.",1,2025-06-03,Bank of Abyssinia,Google Play,NEGATIVE,0.9994122982025146,"i, a problem, i, my phone number, password, the app, an error, that, this app, a bug, i, cache, nothing, this bug, the next update, i, access, my account, you",Account Access Issues
@@ -651,7 +624,6 @@ the is not functional at all?,2,2025-02-12,Bank of Abyssinia,Google Play,NEGATIV
 best bank,5,2025-02-08,Bank of Abyssinia,Google Play,POSITIVE,0.9997438788414001,best bank,Feature / Others
 make it easy and convienient to use and perfect for all to high prefrence and choice.,3,2025-02-07,Bank of Abyssinia,Google Play,POSITIVE,0.9997236132621765,"it, high prefrence, choice",Feature / Others
 good,5,2025-02-05,Bank of Abyssinia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
-,5,2025-02-04,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 i have been using this app for two years.it is amazing.,5,2025-02-01,Bank of Abyssinia,Google Play,POSITIVE,0.9998595714569092,"i, this app, two years.it",Feature / Others
 good,5,2025-01-31,Bank of Abyssinia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 sad experience,1,2025-01-30,Bank of Abyssinia,Google Play,NEGATIVE,0.9990687966346741,sad experience,Feature / Others
@@ -663,7 +635,6 @@ beter,5,2025-01-21,Bank of Abyssinia,Google Play,POSITIVE,0.6771944165229797,bet
 boa,4,2025-01-18,Bank of Abyssinia,Google Play,NEGATIVE,0.7410542368888855,boa,Feature / Others
 it s not app it s very slow ehhhh. why don t you upgrade the app???? it s always zero,1,2025-01-18,Bank of Abyssinia,Google Play,NEGATIVE,0.9993997812271118,"it, it, very slow ehhhh, don t, you, the app, it",Transaction Performance
 aadan axmed barkhadle,5,2025-01-17,Bank of Abyssinia,Google Play,POSITIVE,0.6127519011497498,"aadan, barkhadle",Feature / Others
-,1,2025-01-16,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 horrible customer service and app crashes horrible!!,1,2025-01-15,Bank of Abyssinia,Google Play,NEGATIVE,0.9997913241386414,"horrible customer service, app",Customer Support
 i love it,5,2025-01-14,Bank of Abyssinia,Google Play,POSITIVE,0.9998799562454224,"i, it",Feature / Others
 best,5,2025-01-14,Bank of Abyssinia,Google Play,POSITIVE,0.9997941851615906,,Feature / Others
@@ -693,7 +664,6 @@ it s useless app downgraded.,1,2024-12-29,Bank of Abyssinia,Google Play,NEGATIVE
 why is not letting me access my account. the whole point of this app is for me to gey access to my account without physically being at the bank. i would give it a zero but a one will suffice to get my point accross.,1,2024-12-27,Bank of Abyssinia,Google Play,NEGATIVE,0.7652340531349182,"me, my account, the whole point, this app, me, gey access, my account, the bank, i, it, a one, my point",Account Access Issues
 nice,5,2024-12-26,Bank of Abyssinia,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
 when are you going to get rid of this and have a real app that works? by far the worst mobile banking app.,1,2024-12-24,Bank of Abyssinia,Google Play,NEGATIVE,0.9997933506965637,"you, this, a real app, that",Feature / Others
-,1,2024-12-23,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 not that much bad,3,2024-12-22,Bank of Abyssinia,Google Play,POSITIVE,0.9988158941268921,,Feature / Others
 fine,5,2024-12-21,Bank of Abyssinia,Google Play,POSITIVE,0.9998335838317871,,Feature / Others
 the dirtiest application ever seen...,1,2024-12-20,Bank of Abyssinia,Google Play,NEGATIVE,0.995487630367279,the dirtiest application,Feature / Others
@@ -722,13 +692,11 @@ exellent digital transaction of money,5,2024-11-27,Bank of Abyssinia,Google Play
 the latest update has stopped android 9 phones not to open this app. never work properly since i started using it.,1,2024-11-26,Bank of Abyssinia,Google Play,NEGATIVE,0.9997497200965881,"the latest update, 9 phones, this app, i, it",Feature / Others
 best,5,2024-11-25,Bank of Abyssinia,Google Play,POSITIVE,0.9997941851615906,,Feature / Others
 great,5,2024-11-25,Bank of Abyssinia,Google Play,POSITIVE,0.9998630285263062,,Feature / Others
-,5,2024-11-24,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 money,5,2024-11-24,Bank of Abyssinia,Google Play,POSITIVE,0.9659326076507568,money,Feature / Others
 it needs more improvment,2,2024-11-24,Bank of Abyssinia,Google Play,NEGATIVE,0.998616099357605,"it, more improvment",Feature / Others
 good app,5,2024-11-21,Bank of Abyssinia,Google Play,POSITIVE,0.9998493194580078,good app,Feature / Others
 ab,3,2024-11-20,Bank of Abyssinia,Google Play,POSITIVE,0.9603192806243896,ab,Feature / Others
 ademtahir,5,2024-11-20,Bank of Abyssinia,Google Play,POSITIVE,0.9930111765861511,,Feature / Others
-,5,2024-11-20,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 please this app on my android phone,3,2024-11-20,Bank of Abyssinia,Google Play,POSITIVE,0.6488659381866455,"please this app, my android phone",Feature / Others
 goat,5,2024-11-19,Bank of Abyssinia,Google Play,NEGATIVE,0.9739651679992676,goat,Feature / Others
 "your app doesn t match your bank, the app is disaster, super slow. please learn something from tele birr app.",1,2024-11-19,Bank of Abyssinia,Google Play,NEGATIVE,0.9994716048240662,"your bank, the app, disaster, something, tele birr app",Feature / Others
@@ -736,7 +704,6 @@ fast and reliable,5,2024-11-18,Bank of Abyssinia,Google Play,POSITIVE,0.99985957
 "the worst app update ever. why would you include the developer option off thing here? why do you care? it is my phone my money, right? that is the reason why i switched to other banks. so either turn it off or everyone will discontinue their business one by one.",1,2024-11-17,Bank of Abyssinia,Google Play,NEGATIVE,0.9998044371604919,"you, the developer option, thing, you, it, my phone, my money, that, the reason, i, other banks, it, everyone, their business",Feature / Others
 very good,5,2024-11-14,Bank of Abyssinia,Google Play,POSITIVE,0.9998520612716675,,Feature / Others
 one of the poorest mobile banking system,1,2024-11-13,Bank of Abyssinia,Google Play,NEGATIVE,0.9997566342353821,,Feature / Others
-,5,2024-11-12,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 oene,5,2024-11-12,Bank of Abyssinia,Google Play,POSITIVE,0.8278864026069641,,Feature / Others
 i find it interesting specially in reciept downloading,1,2024-11-12,Bank of Abyssinia,Google Play,POSITIVE,0.9981314539909363,"i, it, reciept",Feature / Others
 it good,5,2024-11-12,Bank of Abyssinia,Google Play,POSITIVE,0.9998427629470825,it,Feature / Others
@@ -751,7 +718,6 @@ the worst app i have never seen like this before,1,2024-11-12,Bank of Abyssinia,
 wweeeer,4,2024-11-12,Bank of Abyssinia,Google Play,NEGATIVE,0.8910733461380005,wweeeer,Feature / Others
 infinx,5,2024-11-12,Bank of Abyssinia,Google Play,NEGATIVE,0.904255747795105,infinx,Feature / Others
 great service,5,2024-11-12,Bank of Abyssinia,Google Play,POSITIVE,0.9998434782028198,great service,Feature / Others
-,5,2024-11-11,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 this app is not available on all android versions and some times it is not functional.,1,2024-11-08,Bank of Abyssinia,Google Play,NEGATIVE,0.9997187256813049,"this app, all android versions, it",Feature / Others
 senayt mesfin,4,2024-11-08,Bank of Abyssinia,Google Play,POSITIVE,0.887482225894928,senayt mesfin,Feature / Others
 bad app vety bad.,1,2024-11-07,Bank of Abyssinia,Google Play,NEGATIVE,0.9998058676719666,,Feature / Others
@@ -760,7 +726,6 @@ abessnya banke,5,2024-11-05,Bank of Abyssinia,Google Play,NEGATIVE,0.98736530542
 "the most useless app, i never expected such an irrelevant app from boa. big shame!",1,2024-11-04,Bank of Abyssinia,Google Play,NEGATIVE,0.9997209906578064,"i, boa, big shame",Feature / Others
 professional on banking app,5,2024-11-01,Bank of Abyssinia,Google Play,POSITIVE,0.9616296291351318,banking app,Feature / Others
 has some nice interface but always freezes or slow to load .app developers please fix this issue.,3,2024-10-27,Bank of Abyssinia,Google Play,NEGATIVE,0.993607759475708,"some nice interface, developers, this issue",User Interface & Experience
-,5,2024-10-26,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 please try another because this app doesn t feet the need of this generation,1,2024-10-25,Bank of Abyssinia,Google Play,NEGATIVE,0.9962055683135986,"another, the need, this generation",Feature / Others
 good,4,2024-10-25,Bank of Abyssinia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 fast transfer,5,2024-10-24,Bank of Abyssinia,Google Play,POSITIVE,0.9989985823631287,fast transfer,Transaction Performance
@@ -769,7 +734,6 @@ amrumehamed,1,2024-10-21,Bank of Abyssinia,Google Play,POSITIVE,0.69240421056747
 good,5,2024-10-19,Bank of Abyssinia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 "nice to meet you my proud bank in ethiopia.. i m a member of this bank, i need to solve my problem of international receiving money for me from my online digital working service s over the world please? i m working a lot of international money.but i can t get direct in ethiopia because of don t knowing the legal ways of getting money in ethiopia please can i get and direct deposit with boa please ?",5,2024-10-18,Bank of Abyssinia,Google Play,POSITIVE,0.738517165184021,"you, my proud bank, ethiopia, i, a member, this bank, i, my problem, money, me, the world, i, a lot, i, t, ethiopia, don t, the legal ways, money, ethiopia, i, direct deposit, boa",Feature / Others
 very good,5,2024-10-18,Bank of Abyssinia,Google Play,POSITIVE,0.9998520612716675,,Feature / Others
-,5,2024-10-15,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
 "terrible bank experience it s unbelievable that with all the modern technology, this bank still struggles with even basic transactions. the app constantly crashes, services are limited, and every time i try to transfer money or load telebirr, there s a huge delay. i have to wait 5 days for failed transactions to be refunded! even ussd is unreliable. they ve put me in embarrassing situations countless times, and customer care never fixes anything. i ve switched banks, and you should too!",1,2024-10-14,Bank of Abyssinia,Google Play,NEGATIVE,0.9993392825126648,"it, this bank, even basic transactions, the app, services, i, money, telebirr, a huge delay, i, failed transactions, even ussd, they, me, embarrassing situations, customer care, anything, i, banks, you",Transaction Performance
 a painfully slow banking app service. please don t make it your choice!,1,2024-10-13,Bank of Abyssinia,Google Play,NEGATIVE,0.9996533393859863,"don t, it",Feature / Others
 good app,4,2024-10-12,Bank of Abyssinia,Google Play,POSITIVE,0.9998493194580078,good app,Feature / Others
@@ -786,9 +750,18 @@ update to the simplest way it requires the developer option on and off why this 
 "stop telling me what to do with my phone, boa. why does your newly updated app keep asking me to disable the developer options? i m not slowing down my phone just to use your god damn app.",1,2024-10-04,Bank of Abyssinia,Google Play,NEGATIVE,0.9963817596435547,"me, what, my phone, boa, me, the developer options, i, my phone, your god, damn app",Feature / Others
 i m living out of country how may i download and use mobile banking? it asks me the ethiopia phone number and i can t receive text to confirm because i m out side the country. so please lete know if i can use while i m outside the country. thanks,1,2024-10-04,Bank of Abyssinia,Google Play,NEGATIVE,0.8754245042800903,"i, country, i, mobile banking, it, me, i, t, text, i, the country, i, i, the country, thanks",Feature / Others
 good,3,2024-10-03,Bank of Abyssinia,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
-worest app,1,2024-10-03,Bank of Abyssinia,Google Play,NEGATIVE,0.7789772152900696,worest app,Feature / Others
-the worest app ever,1,2024-10-03,Bank of Abyssinia,Google Play,POSITIVE,0.9535900950431824,the worest app,Feature / Others
-,5,2024-10-03,Bank of Abyssinia,Google Play,Neutral,0.5,,Feature / Others
+"its good app when we compare to others but when we enter our code,it takes too long to open the apps fix it please",4,2025-12-01,Dashen Bank,Google Play,NEGATIVE,0.9975259900093079,"its good app, we, others, we, our code, it, the apps, it",Feature / Others
+easy to use and comfortable.,5,2025-12-01,Dashen Bank,Google Play,POSITIVE,0.999824583530426,,Feature / Others
+best app,4,2025-12-01,Dashen Bank,Google Play,POSITIVE,0.999686598777771,best app,Feature / Others
+great,5,2025-12-01,Dashen Bank,Google Play,POSITIVE,0.9998630285263062,,Feature / Others
+when u release update its always a problem,5,2025-12-01,Dashen Bank,Google Play,NEGATIVE,0.9981871247291565,u,Feature / Others
+primary choice,5,2025-12-01,Dashen Bank,Google Play,POSITIVE,0.9975801706314087,primary choice,Feature / Others
+its use friendly,4,2025-12-01,Dashen Bank,Google Play,POSITIVE,0.9990565180778503,its use,Feature / Others
+"the apk need time to open the passward page immediately , and lagging.",1,2025-12-01,Dashen Bank,Google Play,NEGATIVE,0.9997720122337341,"the apk, time, the passward page",Feature / Others
+"this app is not good it s, access are limited and u guys are working only on it s graphics we need it for banking activities not for game. make it more active and better its dormant. i don t like it cbe is better than.",1,2025-11-30,Dashen Bank,Google Play,NEGATIVE,0.9993550181388855,"this app, it, access, u guys, it, graphics, we, it, banking activities, game, it, its dormant, i don t, it, cbe",Feature / Others
+great app,5,2025-11-30,Dashen Bank,Google Play,POSITIVE,0.999821126461029,great app,Feature / Others
+good app,5,2025-11-30,Dashen Bank,Google Play,POSITIVE,0.9998493194580078,good app,Feature / Others
+very smart app easy to use and friendly,5,2025-11-29,Dashen Bank,Google Play,POSITIVE,0.9998064637184143,very smart app,Feature / Others
 very exemplery app to other bank aps !,5,2025-11-29,Dashen Bank,Google Play,NEGATIVE,0.9862420558929443,"very exemplery app, other bank aps",Feature / Others
 good,5,2025-11-29,Dashen Bank,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 it is an amazing app,4,2025-11-28,Dashen Bank,Google Play,POSITIVE,0.9998793601989746,"it, an amazing app",Feature / Others
@@ -797,7 +770,6 @@ what do you care about my phone s settings? who are you to tell me what to turn 
 exceptional product.,5,2025-11-23,Dashen Bank,Google Play,POSITIVE,0.9998724460601807,exceptional product,Feature / Others
 very easy app,3,2025-11-23,Dashen Bank,Google Play,POSITIVE,0.9955209493637085,very easy app,Feature / Others
 "the dashen super app is very impressive. it is fast, easy to use, and provides smooth access to all essential banking services. money transfer, bill payment, balance check, and other features work efficiently without issues. the design is clean and user friendly. great step forward in digital banking keep up the good work, dashen bank!..",5,2025-11-19,Dashen Bank,Google Play,POSITIVE,0.9998262524604797,"it, smooth access, money transfer, bill payment, balance check, other features, issues, the design, great step, digital banking, the good work",Transaction Performance
-,5,2025-11-18,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 bill payment options are limited in this app please add ethio telecom bill electric bill etc.. instead of adding nonsense in banking app,1,2025-11-18,Dashen Bank,Google Play,NEGATIVE,0.9899314641952515,"bill payment options, this app, nonsense, banking app",Transaction Performance
 "it s a really slow app, i m not sure what the issue is. even other bank transfers are not working",2,2025-11-18,Dashen Bank,Google Play,NEGATIVE,0.9997965693473816,"it, i, what, the issue",Feature / Others
 always updating bad stability,1,2025-11-17,Dashen Bank,Google Play,NEGATIVE,0.9964240193367004,bad stability,Feature / Others
@@ -839,7 +811,6 @@ exceptional,5,2025-11-05,Dashen Bank,Google Play,POSITIVE,0.9998514652252197,,Fe
 worst app ever,1,2025-11-05,Dashen Bank,Google Play,NEGATIVE,0.9997803568840027,worst app,Feature / Others
 "dashen, always two step ahead.",5,2025-11-05,Dashen Bank,Google Play,POSITIVE,0.9996127486228943,,Feature / Others
 please try to fix the barrier between other banks specially with commercial bank of ethiopia,3,2025-11-05,Dashen Bank,Google Play,NEGATIVE,0.9853928685188293,"the barrier, other banks, commercial bank, ethiopia",Feature / Others
-,5,2025-11-05,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 i am using,5,2025-11-05,Dashen Bank,Google Play,POSITIVE,0.9937612414360046,i,Feature / Others
 it is a wonderful app developed by a local talent. it deserves an appreciation. it will continue to evolve with new exciting features.,5,2025-11-05,Dashen Bank,Google Play,POSITIVE,0.9998525381088257,"it, a wonderful app, a local talent, it, an appreciation, it, new exciting features",Feature / Others
 wonderful app,5,2025-11-05,Dashen Bank,Google Play,POSITIVE,0.9998787641525269,wonderful app,Feature / Others
@@ -853,7 +824,6 @@ dashen bank super app is the latest version of online banking system that is the
 it has improved very much lately its working more and getting better but yet it is not fully fixed some time at night it doesn t work..i think the problem is it was launched too early.,3,2025-11-04,Dashen Bank,Google Play,NEGATIVE,0.9995112419128418,"it, it, night, it, i, the problem, it",Feature / Others
 amazing,5,2025-11-03,Dashen Bank,Google Play,POSITIVE,0.999875545501709,,Feature / Others
 wow dashen bank,5,2025-11-03,Dashen Bank,Google Play,POSITIVE,0.9995077848434448,wow dashen bank,Feature / Others
-,4,2025-11-02,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 "i just updated my app to the latest version and i couldn t even see my balance, send money or do anything. it says service is unavailable and it will be fixed soon.",5,2025-11-01,Dashen Bank,Google Play,NEGATIVE,0.9997050166130066,"i, my app, the latest version, i couldn t, my balance, money, anything, it, service, it",Feature / Others
 it s too slow,1,2025-11-01,Dashen Bank,Google Play,NEGATIVE,0.9997628331184387,it,Feature / Others
 "before the recent update, this app was great. now, the home page is cluttered with promotions and banners, which really hurts the experience. i think the app stopped being banking app and started only to promote b c 95 of the app is only ads, also full of bugs",1,2025-11-01,Dashen Bank,Google Play,NEGATIVE,0.9991887211799622,"the recent update, this app, the home page, promotions, banners, which, the experience, i, the app, banking app, b c, the app, only ads, bugs",Feature / Others
@@ -925,7 +895,6 @@ this app is outstanding,5,2025-10-01,Dashen Bank,Google Play,POSITIVE,0.99987137
 totally bad,1,2025-10-01,Dashen Bank,Google Play,NEGATIVE,0.9997747540473938,,Feature / Others
 i really appreciate but we can t use it if don t have balance or data access,2,2025-10-01,Dashen Bank,Google Play,NEGATIVE,0.9925701022148132,"i, we, t, it, don t",Feature / Others
 nice app,5,2025-09-30,Dashen Bank,Google Play,POSITIVE,0.9998061060905457,nice app,Feature / Others
-,2,2025-09-30,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 it fast service,5,2025-09-29,Dashen Bank,Google Play,POSITIVE,0.999433696269989,it,Feature / Others
 "good improvements after the sep 25, 2025 update.",4,2025-09-29,Dashen Bank,Google Play,POSITIVE,0.9994186162948608,good improvements,Feature / Others
 i have one issue though what if the mobile phone with the sim is stolen and have no pattern or pin. the app allows to reset the pin directly without 2fa like finger print just by sending sms. which is a big gap. it should be addressed i didn t expect but it does and no trust at all.,1,2025-09-28,Dashen Bank,Google Play,NEGATIVE,0.9984925985336304,"i, one issue, the mobile phone, the sim, no pattern, pin, the app, the pin, finger print, sms, which, a big gap, it, didn t, it, no trust",Feature / Others
@@ -939,7 +908,6 @@ cool app,5,2025-09-27,Dashen Bank,Google Play,POSITIVE,0.999824583530426,cool ap
 nice,5,2025-09-27,Dashen Bank,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
 app that makes cashless society in our century and easy to use.,5,2025-09-27,Dashen Bank,Google Play,POSITIVE,0.9961215853691101,"app, that, cashless society, our century",Feature / Others
 tadass,1,2025-09-27,Dashen Bank,Google Play,NEGATIVE,0.9969047904014587,tadass,Feature / Others
-,1,2025-09-27,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 it is an amazing app and all in one,5,2025-09-27,Dashen Bank,Google Play,POSITIVE,0.9998719692230225,"it, an amazing app",Feature / Others
 i dont like it,1,2025-09-27,Dashen Bank,Google Play,NEGATIVE,0.9909656047821045,"i, it",Feature / Others
 dashen is the future,5,2025-09-27,Dashen Bank,Google Play,POSITIVE,0.9976993203163147,the future,Feature / Others
@@ -951,7 +919,6 @@ the best app from other dashen is unique its fast app ever i had in my life,5,20
 i love the new user interface,5,2025-09-26,Dashen Bank,Google Play,POSITIVE,0.9998557567596436,i,Feature / Others
 ok,5,2025-09-26,Dashen Bank,Google Play,POSITIVE,0.9997851252555847,,Feature / Others
 "appreciated, always one step ahead!",5,2025-09-26,Dashen Bank,Google Play,POSITIVE,0.9998669624328613,,Feature / Others
-,5,2025-09-26,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 the app stops working whenever there is an update unless you update the app. but it is better if it kept working on and updating should be optional.,3,2025-09-26,Dashen Bank,Google Play,NEGATIVE,0.9990849494934082,"the app, an update, you, the app, it, it",Feature / Others
 "this is the first time i have experienced this much cool app out of all the other mobile banking platforms, im genuinely happy to see this kind of app here, tnx",5,2025-09-26,Dashen Bank,Google Play,POSITIVE,0.9997037053108215,"this, the first time, i, i, this kind, app",Feature / Others
 it can t do without data or wifi,1,2025-09-26,Dashen Bank,Google Play,NEGATIVE,0.6698940396308899,"it, t, data, wifi",Feature / Others
@@ -968,11 +935,9 @@ good,5,2025-09-22,Dashen Bank,Google Play,POSITIVE,0.9998161196708679,,Feature /
 good,4,2025-09-19,Dashen Bank,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 the worst app. it needs updating everyday. ouch,1,2025-09-19,Dashen Bank,Google Play,NEGATIVE,0.9998196959495544,"the worst app, it",Feature / Others
 safe and secure,3,2025-09-18,Dashen Bank,Google Play,POSITIVE,0.9998433589935303,,Feature / Others
-,4,2025-09-15,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 "is not working right now with snmsung galaxy f15, please help me",1,2025-09-14,Dashen Bank,Google Play,NEGATIVE,0.9993507266044617,"snmsung galaxy f15, me",Feature / Others
 good,5,2025-09-13,Dashen Bank,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 your staffs are really hardworking but the app is not like your employees,3,2025-09-12,Dashen Bank,Google Play,NEGATIVE,0.9945451021194458,"your staffs, the app, your employees",Feature / Others
-,5,2025-09-11,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 total,5,2025-09-11,Dashen Bank,Google Play,POSITIVE,0.9983637928962708,total,Feature / Others
 good,5,2025-09-10,Dashen Bank,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 dashen super app is the best,5,2025-09-10,Dashen Bank,Google Play,POSITIVE,0.9998204112052917,dashen super app,Feature / Others
@@ -1001,7 +966,6 @@ un functional app,1,2025-08-29,Dashen Bank,Google Play,NEGATIVE,0.99876391887664
 trnes far,5,2025-08-27,Dashen Bank,Google Play,NEGATIVE,0.604229211807251,trnes,Feature / Others
 excellent,5,2025-08-26,Dashen Bank,Google Play,POSITIVE,0.9998434782028198,,Feature / Others
 shimalis,4,2025-08-25,Dashen Bank,Google Play,POSITIVE,0.9664985537528992,shimalis,Feature / Others
-,3,2025-08-24,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 excellent mobile banking digital,5,2025-08-24,Dashen Bank,Google Play,POSITIVE,0.9998231530189514,,Feature / Others
 "excellent, and it s truly a super app!",5,2025-08-24,Dashen Bank,Google Play,POSITIVE,0.9998639822006226,"it, a super app",Feature / Others
 nice app,4,2025-08-23,Dashen Bank,Google Play,POSITIVE,0.9998061060905457,nice app,Feature / Others
@@ -1018,7 +982,6 @@ easy to use and the best one,5,2025-08-17,Dashen Bank,Google Play,POSITIVE,0.999
 it is totally work of failure. i personally prefer dashen amole instead of this super dull app.,1,2025-08-16,Dashen Bank,Google Play,NEGATIVE,0.9997392296791077,"it, totally work, failure, i, dashen amole",Feature / Others
 very good app,5,2025-08-16,Dashen Bank,Google Play,POSITIVE,0.9998675584793091,very good app,Feature / Others
 the worst banking app in ethiopia. it forces you to change your pin every three months.,1,2025-08-16,Dashen Bank,Google Play,NEGATIVE,0.999725878238678,"ethiopia, it, you, your pin",Feature / Others
-,5,2025-08-15,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 best but ussd is necessary,5,2025-08-15,Dashen Bank,Google Play,POSITIVE,0.6782341003417969,,Feature / Others
 "one step forward, ethiopian bank and e commerce industry",5,2025-08-15,Dashen Bank,Google Play,POSITIVE,0.9985429048538208,e commerce industry,Feature / Others
 still it s essay for user,4,2025-08-15,Dashen Bank,Google Play,NEGATIVE,0.9320284128189087,"it, essay, user",Feature / Others
@@ -1026,8 +989,6 @@ still it s essay for user,4,2025-08-15,Dashen Bank,Google Play,NEGATIVE,0.932028
 "it was easy enough before. but now it won t even open , why? pls help if possible. the email address you provided under the app support also can t be found by gmail. pls respond.",3,2025-08-14,Dashen Bank,Google Play,NEGATIVE,0.9995518326759338,"it, it, t, the email address, you, the app support, t, gmail",Customer Support
 good,5,2025-08-14,Dashen Bank,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 "there are plenty of features missed e. g electricity bill, water bill payments",2,2025-08-14,Dashen Bank,Google Play,NEGATIVE,0.9990180730819702,"plenty, features, water bill payments",Transaction Performance
-,5,2025-08-14,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
-,1,2025-08-14,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 best,5,2025-08-14,Dashen Bank,Google Play,POSITIVE,0.9997941851615906,,Feature / Others
 great app,5,2025-08-13,Dashen Bank,Google Play,POSITIVE,0.999821126461029,great app,Feature / Others
 "its a very low quality and slow application, very unreliable in times of need",1,2025-08-13,Dashen Bank,Google Play,NEGATIVE,0.9997575879096985,"slow application, times, need",Transaction Performance
@@ -1044,7 +1005,6 @@ verry slow app,1,2025-08-12,Dashen Bank,Google Play,NEGATIVE,0.9995139837265015,
 best bauget app,5,2025-08-12,Dashen Bank,Google Play,POSITIVE,0.998792290687561,best bauget app,Feature / Others
 its good but he said uptede me,2,2025-08-12,Dashen Bank,Google Play,POSITIVE,0.9986693859100342,"its good, he, me",Feature / Others
 network issue,1,2025-08-12,Dashen Bank,Google Play,NEGATIVE,0.9874956011772156,network issue,Feature / Others
-,5,2025-08-12,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 nice,5,2025-08-12,Dashen Bank,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
 fast and easy to use great app.,5,2025-08-12,Dashen Bank,Google Play,POSITIVE,0.9997286200523376,great app,Feature / Others
 best performing and fast financial app,5,2025-08-12,Dashen Bank,Google Play,POSITIVE,0.9997550845146179,,Feature / Others
@@ -1096,7 +1056,6 @@ excellent app ...,5,2025-07-15,Dashen Bank,Google Play,POSITIVE,0.99984943866729
 the worst app i have ever seen,1,2025-07-14,Dashen Bank,Google Play,NEGATIVE,0.999790370464325,"the worst app, i",Feature / Others
 very good compared to amole!,5,2025-07-13,Dashen Bank,Google Play,POSITIVE,0.9998546838760376,,Feature / Others
 "while it s very secure, it is very slower than other mobile banking apps. it is very lazy app!",2,2025-07-12,Dashen Bank,Google Play,NEGATIVE,0.9995947480201721,"it, it, it, very lazy app",Feature / Others
-,5,2025-07-12,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 nice,5,2025-07-12,Dashen Bank,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
 great application,5,2025-07-12,Dashen Bank,Google Play,POSITIVE,0.9998588562011719,great application,Feature / Others
 very nice app,4,2025-07-11,Dashen Bank,Google Play,POSITIVE,0.9998562335968018,very nice app,Feature / Others
@@ -1125,7 +1084,6 @@ very good .,5,2025-06-09,Dashen Bank,Google Play,POSITIVE,0.9998475313186646,,Fe
 wow,5,2025-06-09,Dashen Bank,Google Play,POSITIVE,0.999592125415802,,Feature / Others
 i like this mobile banking app very much. overall user interface and navigation is awesome. but it lacks instant response when someone deposit or withdraw money.,2,2025-06-07,Dashen Bank,Google Play,NEGATIVE,0.9904449582099915,"i, overall user interface, navigation, it, instant response, someone, money",User Interface & Experience
 love,3,2025-06-06,Dashen Bank,Google Play,POSITIVE,0.9998735189437866,love,Feature / Others
-,5,2025-06-03,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 wow,5,2025-06-03,Dashen Bank,Google Play,POSITIVE,0.999592125415802,,Feature / Others
 gadaa,5,2025-06-01,Dashen Bank,Google Play,NEGATIVE,0.7211463451385498,gadaa,Feature / Others
 massive upgrade from the amole app.,5,2025-05-31,Dashen Bank,Google Play,POSITIVE,0.9646419286727905,"massive upgrade, the amole app",Feature / Others
@@ -1137,8 +1095,6 @@ wow,5,2025-05-30,Dashen Bank,Google Play,POSITIVE,0.999592125415802,,Feature / O
 good,5,2025-05-30,Dashen Bank,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 wow to it saff and this app,5,2025-05-30,Dashen Bank,Google Play,POSITIVE,0.9985712766647339,"it, this app",Feature / Others
 it too slow,3,2025-05-29,Dashen Bank,Google Play,NEGATIVE,0.9996801614761353,it,Feature / Others
-,4,2025-05-28,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
-,5,2025-05-28,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 good,5,2025-05-28,Dashen Bank,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
 nice application,5,2025-05-27,Dashen Bank,Google Play,POSITIVE,0.9998229146003723,nice application,Feature / Others
 good,5,2025-05-27,Dashen Bank,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
@@ -1170,21 +1126,8 @@ its my choice,5,2025-05-15,Dashen Bank,Google Play,POSITIVE,0.9962010979652405,i
 wow apo,5,2025-05-15,Dashen Bank,Google Play,POSITIVE,0.9994785189628601,wow apo,Feature / Others
 awesome app keep going,5,2025-05-14,Dashen Bank,Google Play,POSITIVE,0.9998502731323242,awesome app,Feature / Others
 wow,5,2025-05-14,Dashen Bank,Google Play,POSITIVE,0.999592125415802,,Feature / Others
-,5,2025-05-14,Dashen Bank,Google Play,Neutral,0.5,,Feature / Others
 "it grows ethiopian digital banking step ahead.all fetures in one,simple fast and convince.",5,2025-05-14,Dashen Bank,Google Play,POSITIVE,0.9992207288742065,"it, simple fast, convince",Feature / Others
 game changer,5,2025-05-13,Dashen Bank,Google Play,POSITIVE,0.9887570738792419,game changer,Feature / Others
 totally amazing,5,2025-05-13,Dashen Bank,Google Play,POSITIVE,0.9998782873153687,,Feature / Others
 super,5,2025-05-13,Dashen Bank,Google Play,POSITIVE,0.998783528804779,super,Feature / Others
 what a helpful app!!!!,5,2025-05-13,Dashen Bank,Google Play,POSITIVE,0.9990901947021484,,Feature / Others
-good,4,2025-05-13,Dashen Bank,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
-nice,5,2025-05-13,Dashen Bank,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
-wow,5,2025-05-13,Dashen Bank,Google Play,POSITIVE,0.999592125415802,,Feature / Others
-"to be honest, best banking and lifestyle app in ethiopia.",5,2025-05-12,Dashen Bank,Google Play,POSITIVE,0.9997262358665466,"honest, best banking, lifestyle app, ethiopia",Feature / Others
-fast,5,2025-05-12,Dashen Bank,Google Play,POSITIVE,0.9989494681358337,,Feature / Others
-"a must have, seamless, all in one digital platform db superapp ! keep living your motto always one step ahead",5,2025-05-12,Dashen Bank,Google Play,POSITIVE,0.9976771473884583,"a, your motto",Feature / Others
-good,5,2025-05-09,Dashen Bank,Google Play,POSITIVE,0.9998161196708679,,Feature / Others
-amazing app super easy to use and best design. loved it.,5,2025-05-09,Dashen Bank,Google Play,POSITIVE,0.9998630285263062,"amazing app, best design, it",User Interface & Experience
-its the best ever,5,2025-05-09,Dashen Bank,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
-nice,5,2025-05-08,Dashen Bank,Google Play,POSITIVE,0.9998552799224854,,Feature / Others
-excellent game changer app,5,2025-05-08,Dashen Bank,Google Play,POSITIVE,0.9998358488082886,,Feature / Others
-i am highly excited by using this application and it is the most favorable as well as preferrable mobile app.,5,2025-05-03,Dashen Bank,Google Play,POSITIVE,0.9995176792144775,"i, this application, it",Feature / Others
