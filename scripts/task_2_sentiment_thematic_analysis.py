@@ -5,7 +5,7 @@ Task 2: Sentiment Analysis & Thematic Extraction for Fintech App Reviews
 - Sentiment: Hugging Face DistilBERT (positive/negative)
 - Keyword Extraction: spaCy noun chunks
 - Theme Assignment: rule-based clustering
-- Output: reviews_processed.csv
+- Output: data/reviews_processed.csv
 """
 
 import pandas as pd
@@ -16,8 +16,8 @@ import logging
 # -------------------------
 # Config
 # -------------------------
-INPUT_FILE = "cleaned_reviews.csv"
-OUTPUT_FILE = "reviews_processed.csv"
+INPUT_FILE = "data/cleaned_reviews.csv"
+OUTPUT_FILE = "data/reviews_processed.csv"
 
 # -------------------------
 # Logging
