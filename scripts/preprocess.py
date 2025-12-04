@@ -19,6 +19,11 @@ Output: cleaned_reviews.csv
 import pandas as pd
 import re
 import logging
+import yaml
+
+# Load config
+with open('config.yaml') as f:
+    config = yaml.safe_load(f)
 
 INPUT_FILE = "data/raw/reviews.csv"
 OUTPUT_FILE = "data/cleaned_reviews.csv"
@@ -57,4 +62,38 @@ def standardize_bank_name(bank):
     if "dashen" in bank:
         return "Dashen Bank"
     return bank.title()
+# -------------------------------------------------------
+# Main Preprocessing
+# -------------------------------------------------------
+def preprocess_reviews(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
+    logging.info(f"Loading raw reviews from {input_file}")
+    df = pd.read_csv(input_file)
 
+    logging.info("Dropping duplicates")
+    df = df.drop_duplicates()
+
+    logging.info("Normalizing dates")
+    df['date'] = pd.to_datetime(df['date'], errors='coerce').dt.strftime('%Y-%m-%d')
+
+    logging.info("Cleaning review text")
+    df['review'] = df['review'].apply(clean_text)
+
+    logging.info("Removing empty reviews")
+    df = df[df['review'].str.strip() != ""]
+
+    logging.info("Validating ratings (1–5)")
+    df = df[df['rating'].between(1,5)]
+
+    logging.info("Standardizing bank names")
+    df['bank'] = df['bank'].apply(standardize_bank_name)
+
+    logging.info(f"Saving cleaned reviews to {output_file}")
+    df.to_csv(output_file, index=False)
+    logging.info("Preprocessing complete")
+    return df
+
+# -------------------------------------------------------
+# Run preprocessing if called directly
+# -------------------------------------------------------
+if __name__ == "__main__":
+    preprocess_reviews()
