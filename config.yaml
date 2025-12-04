@@ -1,0 +1,7 @@
+# Centralized configuration for paths and DB
+csv_path: data/cleaned_reviews.csv
+
+db_host: localhost
+db_name: bank_reviews
+db_user: postgres
+db_pass: 1234beko
