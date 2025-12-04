@@ -1,4 +1,5 @@
-from sqlalchemy import create_engine
+# scripts/task_2_analysis.py
+from sqlalchemy import create_engine, Table, MetaData, update
 import pandas as pd
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -18,6 +19,7 @@ print(f"Loaded {len(df)} reviews.")
 
 # --- SENTIMENT ANALYSIS ---
 analyzer = SentimentIntensityAnalyzer()
+
 def get_sentiment(text):
     if not text:
         return "neutral", 0
@@ -32,33 +34,57 @@ def get_sentiment(text):
 
 df['sentiment_label'], df['sentiment_score'] = zip(*df['review_text'].apply(get_sentiment))
 
-# --- UPDATE DATABASE ---
-df[['sentiment_label', 'sentiment_score', 'review_id']].to_sql(
-    'reviews',
-    engine,
-    if_exists='replace',  # or 'append' + careful update logic
-    index=False
-)
-print("Sentiment analysis updated via SQLAlchemy.")
+# --- UPDATE DATABASE SAFELY (no table overwrite) ---
+meta = MetaData()
+reviews_table = Table('reviews', meta, autoload_with=engine)
 
-# --- THEME EXTRACTION ---
+with engine.begin() as conn:
+    for _, row in df.iterrows():
+        stmt = (
+            update(reviews_table)
+            .where(reviews_table.c.review_id == row['review_id'])
+            .values(
+                sentiment_label=row['sentiment_label'],
+                sentiment_score=row['sentiment_score']
+            )
+        )
+        conn.execute(stmt)
+
+print("Sentiment analysis updated safely in the database.")
+
+# --- THEME / KEYWORD EXTRACTION ---
 df['cleaned'] = df['review_text'].str.lower().str.replace(r'[^a-z0-9\s]', '', regex=True)
 
 vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1,2), max_features=100)
-X = vectorizer.fit_transform(df['cleaned'])
+vectorizer.fit(df['cleaned'])
 feature_names = vectorizer.get_feature_names_out()
 
 themes = {}
 for bank_id in df['bank_id'].unique():
     bank_texts = df[df['bank_id']==bank_id]['cleaned']
-    vector = vectorizer.transform(bank_texts)
-    summed = vector.sum(axis=0)
+    X = vectorizer.transform(bank_texts)
+    summed = X.sum(axis=0)
     keywords_scores = [(feature_names[i], summed[0,i]) for i in range(len(feature_names))]
     keywords_scores.sort(key=lambda x: x[1], reverse=True)
-    themes[int(bank_id)] = [kw for kw, score in keywords_scores[:10]]
+    
+    # Top 10 keywords, remove 'nan'
+    keywords = [kw for kw, score in keywords_scores[:10] if kw != 'nan']
+    themes[int(bank_id)] = keywords
 
-print("\nTop keywords/themes per bank:")
+# --- DISPLAY THEMES ---
 bank_df = pd.read_sql("SELECT bank_id, bank_name FROM banks", engine)
 for bank_id, keywords in themes.items():
     bank_name = bank_df[bank_df['bank_id']==bank_id]['bank_name'].values[0]
     print(f"{bank_name}: {keywords}")
+
+# --- SAVE THEMES TO CSV ---
+theme_data = []
+for bank_id, keywords in themes.items():
+    theme_data.append({
+        "bank_id": bank_id,
+        "top_keywords": ", ".join(keywords)
+    })
+
+df_themes = pd.DataFrame(theme_data)
+df_themes.to_csv("data/bank_themes.csv", index=False)
+print("Themes saved to data/bank_themes.csv")
